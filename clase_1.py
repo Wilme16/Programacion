@@ -1,10 +1,25 @@
-a = 2
-b = 4
 
-suma= a+b
+x = int(input("Ingrese un numero:"))
+y = int(input("Ingrese un numero:"))
 
-print (suma)
+print("Su número es: ", x)
+print("Su número es: ", y)
 
-resta = a-b
+suma = x + y
+print ("La suma de los numeros es:", suma)
 
-print (resta)
+resta = x - y 
+
+print ("La resta de los numeros es:", resta)
+
+división = x/y
+
+print ( "La division de los numeros es: ", división)
+
+multiplicación = x * y
+
+print ( "La multiplicacion los numeros es: ", multiplicación)
+
+modulo = x % y 
+
+print ( "El modulo de la divison es:", modulo)
