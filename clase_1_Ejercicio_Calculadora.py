@@ -1,10 +1,12 @@
+print()
 x = int(input("Ingrese un número: "))
 y = int(input("Ingrese otro número: "))
-
+print()
 print("Su primer número es:", x)
 print("Su segundo número es:", y)
-
+print()
 simbolo = input("Ingrese el símbolo de la operación que desea realizar (+, -, *, /, %): ")
+print()
 # -----------------------------------------------------------------------------------------------
 if simbolo == "+":
     suma = x + y
