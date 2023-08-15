@@ -12,4 +12,6 @@ b = 0
 
 while b < len(listado):
     print(listado[b])
-    b +=1
+    b +=1
+    
+    

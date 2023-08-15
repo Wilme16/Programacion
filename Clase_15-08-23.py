@@ -1,15 +1,12 @@
-#while
+#ciclo for 
 
-varcontrol = 1
+frutas= ["limon","fresa", "pera", "manzana"]
 
-while varcontrol <= 10 :
-    print(varcontrol)
-    varcontrol +=1
+for i in frutas:
+    print(i)
 
-listado = [ 'juan', 'pedro' , 'maria', 'sofia' ]
-
-b = 0
-
-while b < len(listado):
-    print(listado[b])
-    b +=1
+for a in range(10):
+    print(a)
+    
+for a in range (2, 20, 2):
+    print (a)
