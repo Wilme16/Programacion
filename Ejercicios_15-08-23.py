@@ -15,7 +15,7 @@ if contraseña_a_ingresar == contraseña_a_ingresar:
     print("¡Contraseña correcta!")
 else:
     print("Contraseña incorrecta. Inténtalo de nuevo.")
-
+print("--------------------------------------------------------------------")
 #2. Realice un programa que le pida al usuario dos números por teclado y muestre por 
 # consola su división. Si el divisor es cero el programa debe mostrar un error y solicitar
 #nuevamente el numero.
@@ -33,7 +33,7 @@ while True:
             print("Error: No se puede dividir por cero. Intente nuevamente.")
     except ValueError:
         print("Error: Ingrese números válidos.")
-
+print("--------------------------------------------------------------------------")
 #3. Escriba un programa que le pida al usuario por teclado un numero entero y 
 # muestre en consola si es par o impar.
 
@@ -47,7 +47,7 @@ try:
 except ValueError:
     print("Error: Ingrese un número entero válido.")
 
-
+print("-------------------------------------------------------------------------------------------")
 #4. Escriba que mediante un vector  de 5 item, lea cada item y evalué el ingreso a menores de 
 # edad, si la persona tiene menos de 19 años el programa le debe mostrar 
 #en pantalla que ¡No puede ingresar!, de caso contrario que le diga ¡Bienvenido!
