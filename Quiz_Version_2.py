@@ -75,11 +75,11 @@ print("-------------------------------------------------------------------------
 
 valor = (1,2,3,"Hola mundo",1,1.2)
 
-lista = type(valor)
+tupla = type(valor)
 
 for valores in valor:
   tipo = str(type(valores))
-  print("Los elementos que estan en la lista son de tipo: ", tipo)
+  print("Los elementos que estan en la tupla son de tipo: ", tipo)
 
 
 
