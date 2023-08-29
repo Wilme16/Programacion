@@ -52,18 +52,18 @@ except ValueError:
 
 if moneda == monedas["euro"]:
   a = divisa * 4500
-  print("Su moneda es:", moneda,", El valor de su divisa es: ",a)
-  print("El valor de la divisa en pesos es:", a)
+  print("Su moneda es:", moneda,", El valor de su divisa en pesos es: ",a)
+
   
 elif moneda == monedas["Dolar"]:
   b = divisa * 4000
-  print("Su moneda es:", moneda,", El valor de su divisa es: ",b)
-  print("El valor de la divisa en pesos es:", b)
+  print("Su moneda es:", moneda,", El valor de su divisa en pesos es: ",b)
+  
   
 elif moneda == monedas["Yen"]:
   c = divisa * 28.30
-  print("Su moneda es:", moneda,", El valor de su divisa es: ",c)
-  print("El valor de la divisa en pesos es:", c)
+  print("Su moneda es:", moneda,", El valor de su divisa en pesos es: ",c)
+  
   
 else:
   print("DIVISA NO EXISTENTE")
